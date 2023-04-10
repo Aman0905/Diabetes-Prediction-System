@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template
+from xgboost import XGBClassifier
 import pickle
 import numpy as np
 
